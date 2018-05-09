@@ -1,0 +1,42 @@
+@import './function.scss';
+
+$icon-width: rem(23);
+$icon-height: rem(23);
+
+.icon{
+  display: inline-block;
+  width: $icon-width;
+  height: $icon-height;
+  background-size: $icon-width $icon-height;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.icon_record {
+    background-image: url("../../assets/icon/record.png");
+  }
+  &.icon_record_active {
+    background-image: url("../../assets/icon/record_active.png");
+  }
+  &.icon_polling {
+    background-image: url("../../assets/icon/polling.png");
+  }
+  &.icon_polling_active {
+    background-image: url("../../assets/icon/polling_active.png");
+  }
+  &.icon_wecord {
+    background-image: url("../../assets/icon/wecord.png");
+  }
+  &.icon_wecord_active {
+    background-image: url("../../assets/icon/wecord_active.png");
+  }
+  &.icon_weight {
+    background-image: url("../../assets/icon/weight.png");
+  }
+  &.icon_weight_active {
+    background-image: url("../../assets/icon/weight_active.png");
+  }
+}
